@@ -1,0 +1,274 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/keyboard_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/system_neutral1_10">
+
+    <LinearLayout
+        android:id="@+id/container_keyboard_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clMainHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/llHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="@id/clMainHeader"
+                app:layout_constraintTop_toTopOf="@id/clMainHeader">
+
+
+                <ImageView
+                    android:id="@+id/ivSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/genie_dimen_14dp"
+                    android:layout_marginTop="@dimen/genie_dimen_12dp"
+                    android:layout_marginEnd="@dimen/genie_dimen_14dp"
+                    android:padding="@dimen/genie_dimen_4dp"
+                    android:src="@drawable/ic_genie_setting"
+                    app:layout_constraintBottom_toBottomOf="@+id/llHeader"
+                    app:layout_constraintStart_toStartOf="@id/llHeader" />
+
+
+                <ImageView
+                    android:id="@+id/ivTranslate"
+                    style="@style/keyBoardHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_genie_translate"
+                    app:layout_constraintEnd_toStartOf="@id/ivGrammarCheck"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/translateProgress"
+                    style="@style/progressIndicatorStyle"
+                    android:src="@drawable/progress_indicator"
+                    app:layout_constraintEnd_toStartOf="@id/ivGrammarCheck"
+                    app:layout_constraintTop_toTopOf="@id/llHeader"
+                    tools:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ivGrammarCheck"
+                    style="@style/keyBoardHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_genie_magic_pen"
+                    app:layout_constraintEnd_toStartOf="@id/ivParaphrase"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/grammarCheckProgress"
+                    style="@style/progressIndicatorStyle"
+                    android:src="@drawable/progress_indicator"
+                    app:layout_constraintEnd_toStartOf="@id/ivParaphrase"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <ImageView
+                    android:id="@+id/ivParaphrase"
+                    style="@style/keyBoardHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_genie_edit"
+                    app:layout_constraintEnd_toStartOf="@id/ivContinueWriting"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/paraphraseProgress"
+                    style="@style/progressIndicatorStyle"
+                    android:src="@drawable/progress_indicator"
+                    app:layout_constraintEnd_toStartOf="@id/ivContinueWriting"
+                    app:layout_constraintTop_toTopOf="@id/llHeader"
+                    tools:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ivContinueWriting"
+                    style="@style/keyBoardHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_genie_card_edit"
+                    app:layout_constraintEnd_toStartOf="@id/ivEmailReplies"
+                    app:layout_constraintTop_toTopOf="@id/llHeader"
+                    tools:ignore="ContentDescription" />
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/continueWritingProgress"
+                    style="@style/progressIndicatorStyle"
+                    android:src="@drawable/progress_indicator"
+                    app:layout_constraintEnd_toStartOf="@id/ivEmailReplies"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <ImageView
+                    android:id="@+id/ivEmailReplies"
+                    style="@style/keyBoardHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_genie_msg_edit"
+                    app:layout_constraintEnd_toStartOf="@id/ivHelpMeWrite"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/emailReplyProgress"
+                    style="@style/progressIndicatorStyle"
+                    android:src="@drawable/progress_indicator"
+                    app:layout_constraintEnd_toStartOf="@id/ivHelpMeWrite"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <ImageView
+                    android:id="@+id/ivHelpMeWrite"
+                    style="@style/keyBoardHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/genie_dimen_14dp"
+                    android:src="@drawable/ic_genie_receipt_edit"
+                    app:layout_constraintEnd_toEndOf="@id/llHeader"
+                    app:layout_constraintTop_toTopOf="@id/llHeader" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/helpMeWriteProgress"
+                    style="@style/progressIndicatorStyle"
+                    android:layout_marginEnd="@dimen/genie_dimen_14dp"
+                    android:src="@drawable/progress_indicator"
+                    app:layout_constraintEnd_toEndOf="@id/llHeader"
+                    app:layout_constraintTop_toTopOf="@id/llHeader"
+                    tools:visibility="visible" />
+
+                <Spinner
+                    android:id="@+id/spTranslate"
+                    style="@style/spinnerStyle"
+                    app:layout_constraintStart_toStartOf="@id/ivTranslate"
+                    app:layout_constraintTop_toBottomOf="@+id/llHeader" />
+
+                <Spinner
+                    android:id="@+id/spParaphrase"
+                    style="@style/spinnerStyle"
+                    app:layout_constraintStart_toStartOf="@id/ivParaphrase"
+                    app:layout_constraintTop_toBottomOf="@+id/llHeader" />
+
+                <Spinner
+                    android:id="@+id/spEmailReply"
+                    style="@style/spinnerStyle"
+                    app:layout_constraintEnd_toEndOf="@id/ivEmailReplies"
+                    app:layout_constraintTop_toBottomOf="@+id/llHeader" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/genie_dimen_8dp"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/clMainHeader"
+                app:layout_constraintTop_toBottomOf="@+id/llHeader">
+
+                <EditText
+                    android:id="@+id/etWrite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/genie_dimen_14dp"
+                    android:layout_marginTop="@dimen/genie_dimen_6dp"
+                    android:background="@drawable/keyboard_header_edit_text"
+                    android:hint="@string/like_to_write"
+                    android:padding="@dimen/genie_dimen_6dp"
+                    android:textColorHint="@color/button_grey"
+                    android:textSize="@dimen/genie_dimen_font_14sp"
+                    app:layout_constraintEnd_toStartOf="@+id/ivSend"
+                    app:layout_constraintHorizontal_weight="6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/genie_dimen_6dp"
+                    android:layout_marginTop="@dimen/genie_dimen_2dp"
+                    android:layout_marginEnd="@dimen/genie_dimen_14dp"
+                    android:padding="@dimen/genie_dimen_4dp"
+                    android:src="@drawable/ic_genie_circle_send"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_weight="4"
+                    app:layout_constraintStart_toEndOf="@id/etWrite"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/genie_dimen_46dp"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="@id/clMainHeader"
+                app:layout_constraintTop_toBottomOf="@+id/llHeader">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvSuggestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ai.genie.app.ui.main.MainKeyboard
+            android:id="@+id/keyboard_main"
+            style="@style/KwKeyboardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_dark_background_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mock_measure_height_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/container_keyboard_main">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/you_background_color" />
+
+        <ai.genie.app.ui.main.MainKeyboard
+            android:id="@+id/mock_measure_height_keyboard_main"
+            style="@style/KwKeyboardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_dark_background_color" />
+
+    </LinearLayout>
+
+    <ai.genie.app.ui.emoji.EmojiKeyboard
+        android:id="@+id/keyboard_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/mock_measure_height_keyboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mock_measure_height_keyboard" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

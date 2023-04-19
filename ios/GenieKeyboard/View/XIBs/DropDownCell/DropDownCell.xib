@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DropDownCell" id="KGk-i7-Jjw" customClass="DropDownCell" customModule="GenieKeyboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcf-MS-ein">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwS-ha-t5u">
+                                <rect key="frame" x="8" y="0.0" width="304" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="KeyboardKey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uwS-ha-t5u" secondAttribute="trailing" constant="8" id="PUl-PR-vxB"/>
+                            <constraint firstAttribute="bottom" secondItem="uwS-ha-t5u" secondAttribute="bottom" id="bvu-Vm-1aQ"/>
+                            <constraint firstItem="uwS-ha-t5u" firstAttribute="leading" secondItem="lcf-MS-ein" secondAttribute="leading" constant="8" id="oqS-kb-9qz"/>
+                            <constraint firstItem="uwS-ha-t5u" firstAttribute="top" secondItem="lcf-MS-ein" secondAttribute="top" id="xN6-HK-oV8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="CharKeyBackground"/>
+                <constraints>
+                    <constraint firstItem="lcf-MS-ein" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6vd-B1-X81"/>
+                    <constraint firstAttribute="bottom" secondItem="lcf-MS-ein" secondAttribute="bottom" id="8Zp-Qr-fqv"/>
+                    <constraint firstItem="lcf-MS-ein" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FKd-vW-2EL"/>
+                    <constraint firstAttribute="trailing" secondItem="lcf-MS-ein" secondAttribute="trailing" id="YmA-x9-c6W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="uwS-ha-t5u" id="yZh-Qs-Qt1"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CharKeyBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="KeyboardKey">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

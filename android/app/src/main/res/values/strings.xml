@@ -1,0 +1,79 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="redirection_note">Please enable Simple Keyboard on the next screen, to make it an available keyboard. Press \'Back\' once enabled.</string>
+    <string name="change_keyboard">Change Keyboard</string>
+    <string name="like_to_write">What would you like to write about?</string>
+    <!-- Clipboard -->
+    <string name="manage_clipboard_items">Manage clipboard items</string>
+    <string name="manage_clipboard_empty">Your clipboard is empty.</string>
+    <string name="manage_clipboard_label">Once you copy some text, it will show up here. You can also pin clips so they won\'t disappear later.</string>
+    <string name="clear_clipboard_data">Clear clipboard data</string>
+    <string name="clear_clipboard_data_confirmation">Are you sure you want to clear the clipboard data?</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="clipboard_recent">Recent</string>
+    <string name="clipboard_current">Current</string>
+    <string name="clipboard_pinned">Pinned</string>
+    <string name="add_new_item">Add a new item</string>
+    <string name="manage_clips">You can manage or add clips here for quick access.</string>
+    <string name="clip_text">Clip text</string>
+    <string name="pin_text">Pin text</string>
+    <string name="text_pinned">Text has been pinned</string>
+    <string name="export_clipboard_items">Export clipboard items</string>
+    <string name="import_clipboard_items">Import clipboard items</string>
+    <!-- Accessibility -->
+    <string name="keycode_delete">Delete</string>
+    <string name="keycode_mode_change">Change keyboard type</string>
+    <string name="keycode_shift">Shift</string>
+    <string name="keycode_enter">Enter</string>
+    <!-- Settings -->
+    <string name="show_clipboard_content">Show clipboard content if available</string>
+    <string name="show_popup">Show a popup on keypress</string>
+    <string name="vibrate_on_keypress">Vibrate on keypress</string>
+    <string name="keyboard_language">Keyboard language</string>
+    <string name="keyboard_height">Keyboard height</string>
+    <string name="show_key_borders">Show key borders</string>
+    <string name="show_numbers_row">Show numbers on a separate row</string>
+    <!-- Emojis -->
+    <string name="emojis">Emojis</string>
+    <string name="settings">Settings</string>
+
+    <string name="welcome">Welcome to Genie Keyboard</string>
+    <string name="enable_and_set_for_default">For using this Genie Keyboard you need to go to your settings and enable the Genie Keyboard. After that, when you want to use this Genie Keyboard, you neet to set it for default keyboard.</string>
+    <string name="description_for_sharing">After that go to any chat application and share content :)</string>
+    <string name="animals">Animals</string>
+    <string name="network_problem">Network error occurred while downloading.</string>
+    <string name="download_problem">IO error occurred while downloading</string>
+    <!-- Dropdown Arrays -->
+    <string-array name="Paraphrase">
+        <item>Professional</item>
+        <item>Plain Language</item>
+        <item>Informal</item>
+        <item>Formal</item>
+        <item>Expanded</item>
+        <item>Condensed</item>
+        <item>Creative</item>
+        <item>Poetry</item>
+        <item>Funny</item>
+    </string-array>
+    <string-array name="emailReply">
+        <item>Interested</item>
+        <item>Not Interested</item>
+        <item>Respectful</item>
+        <item>Casual</item>
+        <item>Professional</item>
+        <item>Enthusiastic</item>
+        <item>Annoyed</item>
+        <item>Negotiation</item>
+        <item>Thankful</item>
+    </string-array>
+
+    <!--API related-->
+    <string name="no_instance_found">App instance is not available because app is not running</string>
+    <string name="msg_network_error">Please check your internet connection</string>
+    <string name="msg_server_error">Server not responding. Please try again after some time.</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="failed_to_connect_with_server">Failed to connect with server!</string>
+    <string name="something_went_wrong">Oh no, something went wrong!</string>
+    <string name="account_deactivated">Your account is inactivated.</string>
+
+</resources>

@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="KeyBoardView" id="iN0-l3-epB" customClass="KeyBoardView" customModule="GenieKeyboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="758" height="973"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pa0-JC-S8s">
+                    <rect key="frame" x="4" y="0.0" width="750" height="245"/>
+                    <subviews>
+                        <stackView opaque="NO" tag="996" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v5u-tf-uXn">
+                            <rect key="frame" x="0.0" y="0.0" width="750" height="245"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TT0-Dj-mdK">
+                                    <rect key="frame" x="0.0" y="0.0" width="750" height="50"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gpn-hr-zUd">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="94" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5G-jB-RY0">
+                                                    <rect key="frame" x="8" y="0.0" width="50" height="50"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="pZD-xm-AZi"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="setting"/>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="k5G-jB-RY0" secondAttribute="bottom" id="YQy-al-egY"/>
+                                                <constraint firstItem="k5G-jB-RY0" firstAttribute="leading" secondItem="Gpn-hr-zUd" secondAttribute="leading" constant="8" id="mkr-P1-ci5"/>
+                                                <constraint firstItem="k5G-jB-RY0" firstAttribute="top" secondItem="Gpn-hr-zUd" secondAttribute="top" id="u3l-em-bzj"/>
+                                                <constraint firstAttribute="width" constant="80" id="wD5-cY-ST5"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zlt-uy-dyF">
+                                            <rect key="frame" x="80" y="0.0" width="670" height="50"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5r9-O0-Ike">
+                                                    <rect key="frame" x="330" y="0.0" width="340" height="50"/>
+                                                    <subviews>
+                                                        <view tag="105" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rch-no-rj2" userLabel="Translate">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="95" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGV-Ff-LGM">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="50" id="AQS-R2-jdf"/>
+                                                                        <constraint firstAttribute="width" secondItem="VGV-Ff-LGM" secondAttribute="height" multiplier="1:1" id="dEl-Go-0EJ"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" image="translate"/>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="VGV-Ff-LGM" firstAttribute="top" secondItem="rch-no-rj2" secondAttribute="top" id="HeA-MP-uk6"/>
+                                                                <constraint firstAttribute="trailing" secondItem="VGV-Ff-LGM" secondAttribute="trailing" id="Nn9-rW-a1m"/>
+                                                                <constraint firstItem="VGV-Ff-LGM" firstAttribute="leading" secondItem="rch-no-rj2" secondAttribute="leading" id="R9a-MP-TcR"/>
+                                                                <constraint firstAttribute="bottom" secondItem="VGV-Ff-LGM" secondAttribute="bottom" id="oVQ-gp-tGn"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view tag="106" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udB-Qk-ck9" userLabel="Grammer Check">
+                                                            <rect key="frame" x="58" y="0.0" width="50" height="50"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="96" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Sl-si-Oxw">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="50" id="NO6-zw-xBZ"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" image="magicpen"/>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="7Sl-si-Oxw" firstAttribute="top" secondItem="udB-Qk-ck9" secondAttribute="top" id="UeR-yU-kUx"/>
+                                                                <constraint firstItem="7Sl-si-Oxw" firstAttribute="leading" secondItem="udB-Qk-ck9" secondAttribute="leading" id="d3E-m2-ok1"/>
+                                                                <constraint firstAttribute="trailing" secondItem="7Sl-si-Oxw" secondAttribute="trailing" id="jun-21-e9y"/>
+                                                                <constraint firstAttribute="bottom" secondItem="7Sl-si-Oxw" secondAttribute="bottom" id="uok-dn-PId"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view tag="107" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Yo-cG-qLM" userLabel="Paraphrase">
+                                                            <rect key="frame" x="116" y="0.0" width="50" height="50"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="97" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="av1-UH-Kn7">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="50" id="EMt-3e-4IH"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" image="paraphrase"/>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="av1-UH-Kn7" secondAttribute="bottom" id="08A-u7-iW9"/>
+                                                                <constraint firstItem="av1-UH-Kn7" firstAttribute="leading" secondItem="5Yo-cG-qLM" secondAttribute="leading" id="cdg-y2-yC8"/>
+                                                                <constraint firstItem="av1-UH-Kn7" firstAttribute="top" secondItem="5Yo-cG-qLM" secondAttribute="top" id="ht6-Le-7OV"/>
+                                                                <constraint firstAttribute="trailing" secondItem="av1-UH-Kn7" secondAttribute="trailing" id="r4C-yl-L6E"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view tag="108" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F7o-wM-N6F" userLabel="Continue Writing">
+                                                            <rect key="frame" x="174" y="0.0" width="50" height="50"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="98" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpa-rN-2AB">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="50" id="gBi-4V-DfT"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" image="keywordTheme"/>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="Tpa-rN-2AB" secondAttribute="bottom" id="5T6-OM-grI"/>
+                                                                <constraint firstItem="Tpa-rN-2AB" firstAttribute="top" secondItem="F7o-wM-N6F" secondAttribute="top" id="8MC-KK-UBk"/>
+                                                                <constraint firstAttribute="trailing" secondItem="Tpa-rN-2AB" secondAttribute="trailing" id="OPG-hW-3dy"/>
+                                                                <constraint firstItem="Tpa-rN-2AB" firstAttribute="leading" secondItem="F7o-wM-N6F" secondAttribute="leading" id="UzV-6j-K8n"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view tag="109" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6e-Gq-765" userLabel="Email Reply">
+                                                            <rect key="frame" x="232" y="0.0" width="50" height="50"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EII-s7-jor">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="50" id="lbp-El-B7h"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" image="emailReply"/>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="EII-s7-jor" secondAttribute="bottom" id="24l-4U-SMt"/>
+                                                                <constraint firstItem="EII-s7-jor" firstAttribute="top" secondItem="i6e-Gq-765" secondAttribute="top" id="3iT-Xy-tTu"/>
+                                                                <constraint firstAttribute="trailing" secondItem="EII-s7-jor" secondAttribute="trailing" id="7ed-uT-PvJ"/>
+                                                                <constraint firstItem="EII-s7-jor" firstAttribute="leading" secondItem="i6e-Gq-765" secondAttribute="leading" id="Lw9-Oj-MzN"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view tag="110" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJK-fs-9UU" userLabel="Help Me Writing">
+                                                            <rect key="frame" x="290" y="0.0" width="50" height="50"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrg-Kj-8tY">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="50" id="Txg-R6-exS"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" image="textSummary"/>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="Jrg-Kj-8tY" firstAttribute="top" secondItem="rJK-fs-9UU" secondAttribute="top" id="KI6-y0-FXK"/>
+                                                                <constraint firstAttribute="trailing" secondItem="Jrg-Kj-8tY" secondAttribute="trailing" id="RAF-iJ-ImQ"/>
+                                                                <constraint firstItem="Jrg-Kj-8tY" firstAttribute="leading" secondItem="rJK-fs-9UU" secondAttribute="leading" id="WoA-zR-Wfi"/>
+                                                                <constraint firstAttribute="bottom" secondItem="Jrg-Kj-8tY" secondAttribute="bottom" id="lGV-8m-hb3"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="qKi-is-pFg"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="5r9-O0-Ike" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zlt-uy-dyF" secondAttribute="leading" id="787-jU-SvA"/>
+                                                <constraint firstItem="5r9-O0-Ike" firstAttribute="top" secondItem="zlt-uy-dyF" secondAttribute="top" id="Ko8-bJ-Hsr"/>
+                                                <constraint firstAttribute="trailing" secondItem="5r9-O0-Ike" secondAttribute="trailing" id="eVC-sF-8SQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="5r9-O0-Ike" secondAttribute="bottom" id="lcv-qn-DqY"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" name="Header"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="BnN-vz-4ma"/>
+                                    </constraints>
+                                </stackView>
+                                <view tag="999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJn-mt-PXq" userLabel="Suggestion View">
+                                    <rect key="frame" x="0.0" y="50" width="750" height="45"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4Tg-cw-coX">
+                                            <rect key="frame" x="0.0" y="4" width="750" height="37"/>
+                                            <subviews>
+                                                <stackView opaque="NO" tag="101" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="VDA-dO-7GI">
+                                                    <rect key="frame" x="0.0" y="0.0" width="750" height="18.5"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Vy-Lw-DDi">
+                                                            <rect key="frame" x="0.0" y="0.0" width="698" height="18.5"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" tag="1111" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What would you like to write about?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Ni-7E-jgb">
+                                                                    <rect key="frame" x="0.0" y="4" width="698" height="10.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <textInputTraits key="textInputTraits"/>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="4Ni-7E-jgb" firstAttribute="leading" secondItem="3Vy-Lw-DDi" secondAttribute="leading" id="XP7-3s-dAc"/>
+                                                                <constraint firstAttribute="bottom" secondItem="4Ni-7E-jgb" secondAttribute="bottom" constant="4" id="bBn-v4-Xna"/>
+                                                                <constraint firstItem="4Ni-7E-jgb" firstAttribute="top" secondItem="3Vy-Lw-DDi" secondAttribute="top" constant="4" id="sWI-2S-g84"/>
+                                                                <constraint firstAttribute="trailing" secondItem="4Ni-7E-jgb" secondAttribute="trailing" id="sZ9-9B-jx6"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCW-Ud-6CR">
+                                                            <rect key="frame" x="700" y="0.0" width="50" height="18.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="P0j-DX-Z4E"/>
+                                                            </constraints>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="send"/>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <view tag="1007" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgw-8L-PXS">
+                                                    <rect key="frame" x="0.0" y="18.5" width="750" height="18.5"/>
+                                                    <subviews>
+                                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1006" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2C5-6m-FJR">
+                                                            <rect key="frame" x="0.0" y="0.0" width="750" height="18.5"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="k6g-G5-QUi">
+                                                                <size key="itemSize" width="128" height="128"/>
+                                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                            </collectionViewFlowLayout>
+                                                        </collectionView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="2C5-6m-FJR" firstAttribute="top" secondItem="wgw-8L-PXS" secondAttribute="top" id="MlQ-KV-WYo"/>
+                                                        <constraint firstItem="2C5-6m-FJR" firstAttribute="leading" secondItem="wgw-8L-PXS" secondAttribute="leading" id="XgJ-jV-YRv"/>
+                                                        <constraint firstAttribute="bottom" secondItem="2C5-6m-FJR" secondAttribute="bottom" id="bnH-2h-JCY"/>
+                                                        <constraint firstAttribute="trailing" secondItem="2C5-6m-FJR" secondAttribute="trailing" id="dXz-aA-rt7"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="4Tg-cw-coX" firstAttribute="leading" secondItem="xJn-mt-PXq" secondAttribute="leading" id="EjZ-a0-Xus"/>
+                                        <constraint firstAttribute="trailing" secondItem="4Tg-cw-coX" secondAttribute="trailing" id="YRK-OG-NHY"/>
+                                        <constraint firstAttribute="bottom" secondItem="4Tg-cw-coX" secondAttribute="bottom" constant="4" id="kaa-21-hzP"/>
+                                        <constraint firstItem="4Tg-cw-coX" firstAttribute="top" secondItem="xJn-mt-PXq" secondAttribute="top" constant="4" id="kdL-d4-S1Z"/>
+                                        <constraint firstAttribute="height" constant="45" id="zIw-42-P3n"/>
+                                    </constraints>
+                                </view>
+                                <stackView opaque="NO" tag="1000" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wvc-UQ-Fio" userLabel="Alpha Stack View">
+                                    <rect key="frame" x="0.0" y="95" width="750" height="110"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RK4-BK-fmW" userLabel="Q View">
+                                            <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Blj-rL-Nqo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjF-H5-KXE">
+                                                            <rect key="frame" x="0.0" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="q">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="33" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tg2-Uc-zcu">
+                                                            <rect key="frame" x="75.5" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="w">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3Q-Ox-UPW">
+                                                            <rect key="frame" x="151" y="0.0" width="70" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="e">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gf-dI-NRU">
+                                                            <rect key="frame" x="227" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="r">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xO2-OZ-7eB">
+                                                            <rect key="frame" x="302.5" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="t">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="35" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kES-jQ-FuU">
+                                                            <rect key="frame" x="378" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="y">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8q-KQ-2GY">
+                                                            <rect key="frame" x="453.5" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="u">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIr-Gs-Tqn">
+                                                            <rect key="frame" x="529" y="0.0" width="70" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="i">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdD-pn-lQV">
+                                                            <rect key="frame" x="605" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="o">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgJ-8u-ho1">
+                                                            <rect key="frame" x="680.5" y="0.0" width="69.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="p">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="Blj-rL-Nqo" firstAttribute="leading" secondItem="RK4-BK-fmW" secondAttribute="leading" id="0lG-uP-F5i"/>
+                                                <constraint firstAttribute="bottom" secondItem="Blj-rL-Nqo" secondAttribute="bottom" id="D1X-K2-gwg"/>
+                                                <constraint firstItem="Blj-rL-Nqo" firstAttribute="top" secondItem="RK4-BK-fmW" secondAttribute="top" id="E4G-6S-F38"/>
+                                                <constraint firstAttribute="trailing" secondItem="Blj-rL-Nqo" secondAttribute="trailing" id="HPU-Ax-lG6"/>
+                                                <constraint firstAttribute="height" constant="45" id="T0c-ew-Q9f">
+                                                    <variation key="heightClass=compact-widthClass=compact" constant="30"/>
+                                                    <variation key="heightClass=compact-widthClass=regular" constant="30"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" constant="45"/>
+                                                </constraint>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2AE-kP-1Lx" userLabel="A View">
+                                            <rect key="frame" x="0.0" y="40" width="750" height="30"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="uKS-LK-vJw">
+                                                    <rect key="frame" x="15" y="0.0" width="720" height="30"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewV-H6-Sp6">
+                                                            <rect key="frame" x="0.0" y="0.0" width="74.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="a">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfH-69-j0U">
+                                                            <rect key="frame" x="80.5" y="0.0" width="75" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="s">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3x4-2N-YaV">
+                                                            <rect key="frame" x="161.5" y="0.0" width="74.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="d">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLd-dU-oiX">
+                                                            <rect key="frame" x="242" y="0.0" width="74.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="f">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW2-NR-oOB">
+                                                            <rect key="frame" x="322.5" y="0.0" width="75" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="g">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7EZ-P2-kdF">
+                                                            <rect key="frame" x="403.5" y="0.0" width="74.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="h">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lH-1H-bog">
+                                                            <rect key="frame" x="484" y="0.0" width="74.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="j">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ph3-VY-Szh">
+                                                            <rect key="frame" x="564.5" y="0.0" width="75" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="k">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hR-OD-K4e">
+                                                            <rect key="frame" x="645.5" y="0.0" width="74.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="l">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="uKS-LK-vJw" firstAttribute="leading" secondItem="2AE-kP-1Lx" secondAttribute="leading" constant="15" id="0Ng-tU-1Fe"/>
+                                                <constraint firstItem="uKS-LK-vJw" firstAttribute="top" secondItem="2AE-kP-1Lx" secondAttribute="top" id="fWP-Ed-1PW"/>
+                                                <constraint firstAttribute="bottom" secondItem="uKS-LK-vJw" secondAttribute="bottom" id="hsE-j9-B8Q"/>
+                                                <constraint firstAttribute="trailing" secondItem="uKS-LK-vJw" secondAttribute="trailing" constant="15" id="yHP-OM-y1e"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgv-bj-W6S" userLabel="Z View">
+                                            <rect key="frame" x="0.0" y="80" width="750" height="30"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="HN0-UK-feR">
+                                                    <rect key="frame" x="58" y="0.0" width="634" height="30"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="36" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b72-EF-pbp">
+                                                            <rect key="frame" x="0.0" y="0.0" width="85.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="z">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="34" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDK-5A-10n">
+                                                            <rect key="frame" x="91.5" y="0.0" width="85.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="x">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkX-5q-qvg">
+                                                            <rect key="frame" x="183" y="0.0" width="85.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="c">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVA-9m-TqZ">
+                                                            <rect key="frame" x="274.5" y="0.0" width="85" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="v">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H29-1z-NdK">
+                                                            <rect key="frame" x="365.5" y="0.0" width="85.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="b">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydP-Vs-Qwt">
+                                                            <rect key="frame" x="457" y="0.0" width="85.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="n">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HU-1c-vNw">
+                                                            <rect key="frame" x="548.5" y="0.0" width="85.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="m">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkJ-tb-0Dw">
+                                                    <rect key="frame" x="700" y="0.0" width="50" height="30"/>
+                                                    <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="sEr-ra-ZHg"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="back">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="39" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZb-fD-Dmn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                                                    <color key="backgroundColor" name="CapsKeyBackground"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="CvH-qY-dDr"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="smallLetter">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="RZb-fD-Dmn" secondAttribute="bottom" id="2Hg-GX-hMP"/>
+                                                <constraint firstItem="HN0-UK-feR" firstAttribute="leading" secondItem="RZb-fD-Dmn" secondAttribute="trailing" constant="8" id="3kh-n9-HeZ"/>
+                                                <constraint firstItem="RZb-fD-Dmn" firstAttribute="top" secondItem="hgv-bj-W6S" secondAttribute="top" id="5jf-5W-rU4"/>
+                                                <constraint firstItem="SkJ-tb-0Dw" firstAttribute="leading" secondItem="HN0-UK-feR" secondAttribute="trailing" constant="8" id="Gic-tt-WmZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="HN0-UK-feR" secondAttribute="bottom" id="KGO-Y4-7Ja"/>
+                                                <constraint firstAttribute="trailing" secondItem="SkJ-tb-0Dw" secondAttribute="trailing" id="Mj5-k4-EVJ"/>
+                                                <constraint firstAttribute="bottom" secondItem="SkJ-tb-0Dw" secondAttribute="bottom" id="OpY-MS-IZF"/>
+                                                <constraint firstItem="SkJ-tb-0Dw" firstAttribute="top" secondItem="hgv-bj-W6S" secondAttribute="top" id="bIm-xF-Fpl"/>
+                                                <constraint firstItem="HN0-UK-feR" firstAttribute="top" secondItem="hgv-bj-W6S" secondAttribute="top" id="hPP-Xk-rcM"/>
+                                                <constraint firstItem="RZb-fD-Dmn" firstAttribute="leading" secondItem="hgv-bj-W6S" secondAttribute="leading" id="o4W-Hn-8Mj"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="2AE-kP-1Lx" firstAttribute="height" secondItem="RK4-BK-fmW" secondAttribute="height" id="1eE-lw-5pp"/>
+                                        <constraint firstItem="hgv-bj-W6S" firstAttribute="height" secondItem="2AE-kP-1Lx" secondAttribute="height" id="WIa-aG-427"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView hidden="YES" opaque="NO" tag="1001" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="R9R-gP-hht" userLabel="Number Stack View">
+                                    <rect key="frame" x="0.0" y="205" width="750" height="70"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQZ-92-PuD" userLabel="Number Row">
+                                            <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="UCL-wq-9xd">
+                                                    <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtY-wh-GBG">
+                                                            <rect key="frame" x="0.0" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="1">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2r-PB-cQA">
+                                                            <rect key="frame" x="75.5" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="2">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCj-J8-cKl">
+                                                            <rect key="frame" x="151" y="0.0" width="71" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="3">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMV-TB-v7K">
+                                                            <rect key="frame" x="226" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="4">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-E4-Dbg">
+                                                            <rect key="frame" x="301.5" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="5">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdX-JK-W5K">
+                                                            <rect key="frame" x="377" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="6">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipt-ed-9qV">
+                                                            <rect key="frame" x="452.5" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="7">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zli-De-OEI">
+                                                            <rect key="frame" x="528" y="0.0" width="71" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="8">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQC-85-qmb">
+                                                            <rect key="frame" x="603" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="9">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHS-ZE-f6n">
+                                                            <rect key="frame" x="678.5" y="0.0" width="71.5" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="0">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="UCL-wq-9xd" secondAttribute="bottom" id="2Zf-bh-OrT"/>
+                                                <constraint firstItem="UCL-wq-9xd" firstAttribute="leading" secondItem="MQZ-92-PuD" secondAttribute="leading" id="GKk-s9-Nzq"/>
+                                                <constraint firstAttribute="trailing" secondItem="UCL-wq-9xd" secondAttribute="trailing" id="Osa-rn-YVn"/>
+                                                <constraint firstItem="UCL-wq-9xd" firstAttribute="top" secondItem="MQZ-92-PuD" secondAttribute="top" id="W4g-eD-F9K"/>
+                                            </constraints>
+                                        </view>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PmB-aG-6os">
+                                            <rect key="frame" x="0.0" y="40" width="750" height="30"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="53" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tt-xx-6dc">
+                                                    <rect key="frame" x="0.0" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="-">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="63" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wb-uU-bE9">
+                                                    <rect key="frame" x="75.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="/">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="61" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r23-NY-OYu">
+                                                    <rect key="frame" x="151" y="0.0" width="71" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title=":">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="62" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAI-Lw-Lnj">
+                                                    <rect key="frame" x="226" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title=";">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="55" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV4-Hf-l30">
+                                                    <rect key="frame" x="301.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="(">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="56" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTT-al-MUS">
+                                                    <rect key="frame" x="377" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title=")">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="49" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpR-s9-Q6w">
+                                                    <rect key="frame" x="452.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="$">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsm-eC-dC3">
+                                                    <rect key="frame" x="528" y="0.0" width="71" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="&amp;">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="47" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6q-cD-w4v">
+                                                    <rect key="frame" x="603" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="@">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="59" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8S-S8-H2c">
+                                                    <rect key="frame" x="678.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="&quot;">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </stackView>
+                                <stackView hidden="YES" opaque="NO" tag="1002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VYR-df-QlZ" userLabel="Special Char Stack View">
+                                    <rect key="frame" x="0.0" y="205" width="750" height="70"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Sxi-jR-yhR">
+                                            <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="83" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6Z-Zc-qXl">
+                                                    <rect key="frame" x="0.0" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="[">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="84" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDM-2g-3ae">
+                                                    <rect key="frame" x="75.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="]">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="73" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESJ-DO-zp6">
+                                                    <rect key="frame" x="151" y="0.0" width="71" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="{">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="74" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLl-ep-Y90">
+                                                    <rect key="frame" x="226" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="}">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="48" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8W-Zl-xYx">
+                                                    <rect key="frame" x="301.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="#">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY0-sT-0id">
+                                                    <rect key="frame" x="377" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="%">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="78" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWb-z8-gDS">
+                                                    <rect key="frame" x="452.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="^">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="piB-Ww-c80">
+                                                    <rect key="frame" x="528" y="0.0" width="71" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="*">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="82" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEn-nF-oVF">
+                                                    <rect key="frame" x="603" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="+">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="54" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmC-9b-hqr">
+                                                    <rect key="frame" x="678.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="=">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-G0-9DW">
+                                            <rect key="frame" x="0.0" y="40" width="750" height="30"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="81" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g49-J6-MMF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="_">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="90" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pz-t1-dI5">
+                                                    <rect key="frame" x="75.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="\">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="89" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9G5-hM-yex">
+                                                    <rect key="frame" x="151" y="0.0" width="71" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="|">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="65" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8c7-lG-fZO">
+                                                    <rect key="frame" x="226" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="~">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="86" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlu-pJ-KiT">
+                                                    <rect key="frame" x="301.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="&lt;">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="87" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRG-eH-Pu8">
+                                                    <rect key="frame" x="377" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="&gt;">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="77" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fD1-Yq-rpV">
+                                                    <rect key="frame" x="452.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="€">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="76" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIn-Ny-LF2">
+                                                    <rect key="frame" x="528" y="0.0" width="71" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="£">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="80" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clh-xQ-kJE">
+                                                    <rect key="frame" x="603" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="¥">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" tag="69" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQe-5n-wX1">
+                                                    <rect key="frame" x="678.5" y="0.0" width="71.5" height="30"/>
+                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="•">
+                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEn-hl-88d" userLabel="Space View">
+                                    <rect key="frame" x="0.0" y="205" width="750" height="40"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Q2q-Nb-np8">
+                                            <rect key="frame" x="0.0" y="10" width="750" height="30"/>
+                                            <subviews>
+                                                <view hidden="YES" tag="1005" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwA-Yk-JXe" userLabel="Back View">
+                                                    <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="64" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3T-fb-WnD">
+                                                            <rect key="frame" x="700" y="0.0" width="50" height="30"/>
+                                                            <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="a4d-Ap-O8t"/>
+                                                            </constraints>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="back">
+                                                                <color key="titleColor" name="CharKeyBackground"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="57" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8n7-yR-jlj">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                                                            <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="U3X-5M-vgu"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="=\&lt;">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="f1Z-Vj-Jwe">
+                                                            <rect key="frame" x="66" y="0.0" width="618" height="30"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="46" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xn-Mf-g8A">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="120.5" height="30"/>
+                                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                    <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" title=".">
+                                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="44" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O95-1R-wyJ">
+                                                                    <rect key="frame" x="124.5" y="0.0" width="120.5" height="30"/>
+                                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                    <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" title=",">
+                                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="113" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q2-aR-Cib">
+                                                                    <rect key="frame" x="249" y="0.0" width="120" height="30"/>
+                                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" title="?">
+                                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="58" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeq-uO-Qgx">
+                                                                    <rect key="frame" x="373" y="0.0" width="120.5" height="30"/>
+                                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" title="!">
+                                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="72" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH9-mf-cxS">
+                                                                    <rect key="frame" x="497.5" y="0.0" width="120.5" height="30"/>
+                                                                    <color key="backgroundColor" name="CharKeyBackground"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <state key="normal" title="´">
+                                                                        <color key="titleColor" name="KeyboardKey"/>
+                                                                    </state>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="Z3T-fb-WnD" firstAttribute="leading" secondItem="f1Z-Vj-Jwe" secondAttribute="trailing" constant="16" id="0Bj-eb-xDB"/>
+                                                        <constraint firstAttribute="bottom" secondItem="f1Z-Vj-Jwe" secondAttribute="bottom" id="4vS-a8-PXE"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Z3T-fb-WnD" secondAttribute="trailing" id="7UE-hl-fQN"/>
+                                                        <constraint firstItem="f1Z-Vj-Jwe" firstAttribute="top" secondItem="wwA-Yk-JXe" secondAttribute="top" id="SX1-zK-coW"/>
+                                                        <constraint firstItem="Z3T-fb-WnD" firstAttribute="top" secondItem="wwA-Yk-JXe" secondAttribute="top" id="W3N-Gd-hce"/>
+                                                        <constraint firstItem="8n7-yR-jlj" firstAttribute="top" secondItem="wwA-Yk-JXe" secondAttribute="top" id="d4F-dS-jL6"/>
+                                                        <constraint firstItem="f1Z-Vj-Jwe" firstAttribute="leading" secondItem="8n7-yR-jlj" secondAttribute="trailing" constant="16" id="dBG-am-czb"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Z3T-fb-WnD" secondAttribute="bottom" id="gl6-df-Mth"/>
+                                                        <constraint firstAttribute="bottom" secondItem="8n7-yR-jlj" secondAttribute="bottom" id="j1m-Qv-zUH"/>
+                                                        <constraint firstItem="8n7-yR-jlj" firstAttribute="leading" secondItem="wwA-Yk-JXe" secondAttribute="leading" id="waQ-o4-6nJ"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="WxP-kF-wSJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="750" height="30"/>
+                                                    <subviews>
+                                                        <button opaque="NO" tag="41" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iV9-PO-l7U">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                                                            <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="SNv-ap-SsA"/>
+                                                            </constraints>
+                                                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="123">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2M-Oe-tYc">
+                                                            <rect key="frame" x="54" y="0.0" width="50" height="30"/>
+                                                            <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="bqi-Pw-SwP"/>
+                                                            </constraints>
+                                                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="global">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="45" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PED-1j-Kn3">
+                                                            <rect key="frame" x="108" y="0.0" width="50" height="30"/>
+                                                            <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="hqX-hV-BHk"/>
+                                                            </constraints>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" image="Emoji">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="42" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTS-V8-i06">
+                                                            <rect key="frame" x="162" y="0.0" width="494" height="30"/>
+                                                            <color key="backgroundColor" name="CharKeyBackground"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="space">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" tag="43" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qE-pc-Y85">
+                                                            <rect key="frame" x="660" y="0.0" width="90" height="30"/>
+                                                            <color key="backgroundColor" name="ActionKeyBackground"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="90" id="QIe-QY-k0Z"/>
+                                                            </constraints>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="return">
+                                                                <color key="titleColor" name="KeyboardKey"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Q2q-Nb-np8" secondAttribute="trailing" id="JvC-8v-4XP"/>
+                                        <constraint firstAttribute="bottom" secondItem="Q2q-Nb-np8" secondAttribute="bottom" id="R8N-8i-W12"/>
+                                        <constraint firstItem="Q2q-Nb-np8" firstAttribute="leading" secondItem="FEn-hl-88d" secondAttribute="leading" id="Wuv-Eh-7Ye"/>
+                                        <constraint firstItem="Q2q-Nb-np8" firstAttribute="top" secondItem="FEn-hl-88d" secondAttribute="top" constant="10" id="zTU-v6-MY6"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Sxi-jR-yhR" firstAttribute="height" secondItem="RK4-BK-fmW" secondAttribute="height" id="IWL-0n-TIx"/>
+                                <constraint firstItem="wwA-Yk-JXe" firstAttribute="height" secondItem="RK4-BK-fmW" secondAttribute="height" id="huI-es-7gf"/>
+                                <constraint firstItem="MQZ-92-PuD" firstAttribute="height" secondItem="RK4-BK-fmW" secondAttribute="height" id="nrh-d3-vFa"/>
+                                <constraint firstItem="WxP-kF-wSJ" firstAttribute="height" secondItem="RK4-BK-fmW" secondAttribute="height" id="qdy-aU-rXl"/>
+                            </constraints>
+                        </stackView>
+                        <view hidden="YES" tag="997" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NhJ-Nb-UjG">
+                            <rect key="frame" x="0.0" y="0.0" width="750" height="308"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GSc-Yw-5dN">
+                                    <rect key="frame" x="0.0" y="0.0" width="750" height="308"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0OU-Z4-eB1">
+                                            <rect key="frame" x="0.0" y="0.0" width="750" height="45"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kt8-L0-FGo">
+                                                    <rect key="frame" x="8" y="8" width="29" height="29"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="kt8-L0-FGo" secondAttribute="height" id="SG9-QV-5G6"/>
+                                                    </constraints>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="backIcon"/>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emojis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxJ-2j-pQT">
+                                                    <rect key="frame" x="45" y="0.0" width="705" height="45"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" name="LayoutBackgroud"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="KxJ-2j-pQT" secondAttribute="bottom" id="7nx-hI-kIi"/>
+                                                <constraint firstAttribute="trailing" secondItem="KxJ-2j-pQT" secondAttribute="trailing" id="8Cv-3m-CbR"/>
+                                                <constraint firstAttribute="height" constant="45" id="EZC-L1-8CO"/>
+                                                <constraint firstItem="kt8-L0-FGo" firstAttribute="leading" secondItem="0OU-Z4-eB1" secondAttribute="leading" constant="8" id="EZx-qd-Pu0"/>
+                                                <constraint firstItem="kt8-L0-FGo" firstAttribute="top" secondItem="0OU-Z4-eB1" secondAttribute="top" constant="8" id="WE2-Hu-h25"/>
+                                                <constraint firstItem="KxJ-2j-pQT" firstAttribute="top" secondItem="0OU-Z4-eB1" secondAttribute="top" id="fs3-ct-FSi"/>
+                                                <constraint firstItem="KxJ-2j-pQT" firstAttribute="leading" secondItem="kt8-L0-FGo" secondAttribute="trailing" constant="8" id="nrK-wz-nV7"/>
+                                                <constraint firstAttribute="bottom" secondItem="kt8-L0-FGo" secondAttribute="bottom" constant="8" id="u2H-V8-fgS"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aqA-9g-1Lw">
+                                            <rect key="frame" x="0.0" y="45" width="750" height="263"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="998" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="uIa-K3-F79">
+                                                    <rect key="frame" x="0.0" y="4" width="750" height="255"/>
+                                                    <color key="backgroundColor" name="LayoutBackgroud"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="255" id="xdf-a5-5Xz"/>
+                                                    </constraints>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ICi-Mp-ix0">
+                                                        <size key="itemSize" width="128" height="128"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                </collectionView>
+                                            </subviews>
+                                            <color key="backgroundColor" name="LayoutBackgroud"/>
+                                            <constraints>
+                                                <constraint firstItem="uIa-K3-F79" firstAttribute="top" secondItem="aqA-9g-1Lw" secondAttribute="top" constant="4" id="78E-Zi-lNp"/>
+                                                <constraint firstAttribute="bottom" secondItem="uIa-K3-F79" secondAttribute="bottom" constant="4" id="Tuv-pN-bq1"/>
+                                                <constraint firstItem="uIa-K3-F79" firstAttribute="leading" secondItem="aqA-9g-1Lw" secondAttribute="leading" id="c3f-z8-Pve"/>
+                                                <constraint firstAttribute="trailing" secondItem="uIa-K3-F79" secondAttribute="trailing" id="fnq-yd-hmt"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="GSc-Yw-5dN" firstAttribute="top" secondItem="NhJ-Nb-UjG" secondAttribute="top" id="EaD-Ks-a0h"/>
+                                <constraint firstAttribute="trailing" secondItem="GSc-Yw-5dN" secondAttribute="trailing" id="K1f-Yk-6cc"/>
+                                <constraint firstAttribute="bottom" secondItem="GSc-Yw-5dN" secondAttribute="bottom" id="PnM-is-j1f"/>
+                                <constraint firstItem="GSc-Yw-5dN" firstAttribute="leading" secondItem="NhJ-Nb-UjG" secondAttribute="leading" id="yBe-79-JYr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+                <view tag="104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJc-jg-qJI" userLabel="OverlayView">
+                    <rect key="frame" x="0.0" y="0.0" width="758" height="300"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="TOp-b4-QKZ"/>
+                        <constraint firstAttribute="height" constant="300" id="a1z-7a-TjV"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" tag="1003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eby-2J-Wg3" userLabel="Allow Full Access View">
+                    <rect key="frame" x="0.0" y="0.0" width="758" height="300"/>
+                    <subviews>
+                        <view tag="1004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8E-zc-b0Q">
+                            <rect key="frame" x="21" y="113.5" width="716.5" height="73"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BT-04-Vw8">
+                                    <rect key="frame" x="16" y="16" width="684.5" height="41"/>
+                                    <string key="text">Please allow full access to your keyboard from the Settings -&gt; General -&gt; Keyboard -&gt; Keyboards -&gt; Genie AI - Make a Wish!  and turn on Allow Full Access!</string>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="9BT-04-Vw8" firstAttribute="top" secondItem="l8E-zc-b0Q" secondAttribute="top" constant="16" id="Sgx-oG-Bpm"/>
+                                <constraint firstAttribute="bottom" secondItem="9BT-04-Vw8" secondAttribute="bottom" constant="16" id="h7B-at-V21"/>
+                                <constraint firstAttribute="trailing" secondItem="9BT-04-Vw8" secondAttribute="trailing" constant="16" id="jQT-QI-3Au"/>
+                                <constraint firstItem="9BT-04-Vw8" firstAttribute="leading" secondItem="l8E-zc-b0Q" secondAttribute="leading" constant="16" id="qJP-qf-hNO"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="l8E-zc-b0Q" secondAttribute="trailing" constant="16" id="6ml-7o-xJs"/>
+                        <constraint firstItem="l8E-zc-b0Q" firstAttribute="centerY" secondItem="Eby-2J-Wg3" secondAttribute="centerY" id="acq-XU-ozq"/>
+                        <constraint firstItem="l8E-zc-b0Q" firstAttribute="centerX" secondItem="Eby-2J-Wg3" secondAttribute="centerX" id="fEq-4K-SKy"/>
+                        <constraint firstItem="l8E-zc-b0Q" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Eby-2J-Wg3" secondAttribute="top" constant="16" id="fwP-eW-3AA"/>
+                        <constraint firstItem="l8E-zc-b0Q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Eby-2J-Wg3" secondAttribute="leading" constant="16" id="vVy-E9-Xk6"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="l8E-zc-b0Q" secondAttribute="bottom" constant="16" id="z17-2k-Nac"/>
+                    </constraints>
+                </view>
+                <tableView hidden="YES" clipsSubviews="YES" tag="103" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rce-Q5-TUT">
+                    <rect key="frame" x="279" y="436" width="200" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="LayoutBackgroud"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mJc-jg-qJI" secondAttribute="trailing" id="4fN-Lc-Ehz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pa0-JC-S8s" secondAttribute="trailing" constant="4" id="6A5-jn-eNt"/>
+                <constraint firstItem="Eby-2J-Wg3" firstAttribute="trailing" secondItem="mJc-jg-qJI" secondAttribute="trailing" id="9Ug-PE-dav"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mJc-jg-qJI" secondAttribute="bottom" id="Isu-Ra-6Eo"/>
+                <constraint firstItem="Eby-2J-Wg3" firstAttribute="bottom" secondItem="mJc-jg-qJI" secondAttribute="bottom" id="LVT-hv-alu"/>
+                <constraint firstItem="mJc-jg-qJI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="OGD-e4-XyE"/>
+                <constraint firstItem="pa0-JC-S8s" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="4" id="YG1-dn-fy9"/>
+                <constraint firstItem="Eby-2J-Wg3" firstAttribute="leading" secondItem="mJc-jg-qJI" secondAttribute="leading" id="YxE-9Y-pMV"/>
+                <constraint firstItem="mJc-jg-qJI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eaf-Kr-VWb"/>
+                <constraint firstItem="pa0-JC-S8s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ffO-0Z-h0f"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pa0-JC-S8s" secondAttribute="bottom" constant="5" id="lwg-9H-rP3"/>
+                <constraint firstItem="Eby-2J-Wg3" firstAttribute="top" secondItem="mJc-jg-qJI" secondAttribute="top" id="mnT-Uu-27W"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="alphaStackView" destination="wvc-UQ-Fio" id="qpX-7n-hXc"/>
+                <outlet property="emojiCollectionView" destination="uIa-K3-F79" id="TY7-om-1ey"/>
+                <outlet property="emojiView" destination="NhJ-Nb-UjG" id="Sbh-Jl-Vtn"/>
+                <outlet property="keyboardStackView" destination="v5u-tf-uXn" id="WuE-Dg-jcv"/>
+                <outlet property="numberStackView" destination="R9R-gP-hht" id="b2I-06-tsY"/>
+                <outlet property="spaceView" destination="FEn-hl-88d" id="FnP-ce-F94"/>
+                <outlet property="specialCharStackView" destination="VYR-df-QlZ" id="w22-1L-axA"/>
+                <outlet property="suggestionView" destination="xJn-mt-PXq" id="kt2-KF-fRm"/>
+                <outlet property="topActionView" destination="TT0-Dj-mdK" id="j5A-e8-yJX"/>
+                <outlet property="txtSuggestions" destination="4Ni-7E-jgb" id="hjm-sH-dSZ"/>
+            </connections>
+            <point key="canvasLocation" x="-1211.5942028985507" y="341.18303571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Emoji" width="27" height="27"/>
+        <image name="back" width="23" height="17.5"/>
+        <image name="backIcon" width="21" height="21"/>
+        <image name="emailReply" width="24" height="24"/>
+        <image name="global" width="23" height="23"/>
+        <image name="keywordTheme" width="24" height="21"/>
+        <image name="magicpen" width="22.5" height="24"/>
+        <image name="paraphrase" width="22.5" height="23"/>
+        <image name="send" width="29" height="29"/>
+        <image name="setting" width="25" height="24"/>
+        <image name="smallLetter" width="20" height="20"/>
+        <image name="textSummary" width="22.5" height="24"/>
+        <image name="translate" width="22.5" height="23"/>
+        <namedColor name="ActionKeyBackground">
+            <color red="0.66299998760223389" green="0.68999999761581421" blue="0.72899997234344482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CapsKeyBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CharKeyBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Header">
+            <color red="0.81599998474121094" green="0.82700002193450928" blue="0.84700000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="KeyboardKey">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LayoutBackgroud">
+            <color red="0.81599998474121094" green="0.82700002193450928" blue="0.84700000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

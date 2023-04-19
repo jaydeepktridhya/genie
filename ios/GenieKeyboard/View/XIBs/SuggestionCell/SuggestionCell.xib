@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SuggestionCell" id="gTV-IL-0wX" customClass="SuggestionCell" customModule="GenieKeyboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uT2-T7-gJk">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvS-vH-EE9">
+                                <rect key="frame" x="0.0" y="14.999999999999998" width="49" height="20.333333333333329"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="KeyboardKey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFN-Vx-bLF">
+                                <rect key="frame" x="49" y="0.0" width="1" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="mzD-nJ-uDA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RvS-vH-EE9" firstAttribute="leading" secondItem="uT2-T7-gJk" secondAttribute="leading" id="0F8-il-eb9"/>
+                            <constraint firstItem="kFN-Vx-bLF" firstAttribute="leading" secondItem="RvS-vH-EE9" secondAttribute="trailing" id="3Rm-gt-Etc"/>
+                            <constraint firstItem="RvS-vH-EE9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uT2-T7-gJk" secondAttribute="top" id="7qE-t5-rSp"/>
+                            <constraint firstAttribute="bottom" secondItem="kFN-Vx-bLF" secondAttribute="bottom" id="CDa-Vj-4g8"/>
+                            <constraint firstAttribute="trailing" secondItem="kFN-Vx-bLF" secondAttribute="trailing" id="gOl-be-qCO"/>
+                            <constraint firstItem="RvS-vH-EE9" firstAttribute="centerY" secondItem="uT2-T7-gJk" secondAttribute="centerY" id="ijW-tR-YR4"/>
+                            <constraint firstItem="kFN-Vx-bLF" firstAttribute="centerY" secondItem="uT2-T7-gJk" secondAttribute="centerY" id="ln7-Vj-FVi"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="RvS-vH-EE9" secondAttribute="bottom" id="nVa-I4-VPG"/>
+                            <constraint firstItem="kFN-Vx-bLF" firstAttribute="top" secondItem="uT2-T7-gJk" secondAttribute="top" id="yqY-27-adP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="uT2-T7-gJk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A2g-hX-Sv7"/>
+                <constraint firstAttribute="bottom" secondItem="uT2-T7-gJk" secondAttribute="bottom" id="K0Q-JV-YR4"/>
+                <constraint firstAttribute="trailing" secondItem="uT2-T7-gJk" secondAttribute="trailing" id="TgE-60-rIO"/>
+                <constraint firstItem="uT2-T7-gJk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VhV-pR-OJL"/>
+            </constraints>
+            <connections>
+                <outlet property="lblSuggestionText" destination="RvS-vH-EE9" id="e9C-E7-OOY"/>
+                <outlet property="seperatorView" destination="kFN-Vx-bLF" id="4y3-CM-Sfd"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="KeyboardKey">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

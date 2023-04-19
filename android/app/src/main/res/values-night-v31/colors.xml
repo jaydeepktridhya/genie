@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_bg_normal_color">#363a3d</color>
+    <color name="keyboard_bg_normal_stroke_color">#171717</color>
+    <color name="keyboard_divider">#434746</color>
+    <color name="keyboard_bg_action_color">#0065D0</color>
+    <color name="keyboard_bg_attribute_color">#434746</color>
+    <color name="keyboard_bg_change_color">@color/system_accent1_700</color>
+</resources>

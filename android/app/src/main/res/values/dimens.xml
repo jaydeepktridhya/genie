@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="genieColorAccent">#03DAC5</color>
+    <color name="genieColorAmber">#FF9800</color>
+    <color name="genieColorBlack">#000000</color>
+    <color name="genieColorBlue">#2196F3</color>
+    <color name="genieColorCyan">#00BCD4</color>
+    <color name="genieColorDarkYellow">#FFC107</color>
+    <color name="genieColorDeepPurple">#673AB7</color>
+    <color name="genieColorGreen">#4CAF50</color>
+    <color name="genieColorIndigo">#3F51B5</color>
+    <color name="genieColorLightBlue">#03A9F4</color>
+    <color name="genieColorLightGreen">#8BC34A</color>
+    <color name="genieColorLime">#CDDC39</color>
+    <color name="genieColorOrange">#FF5722</color>
+    <color name="genieColorPink">#E91E63</color>
+    <color name="genieColorPrimary">#6200EE</color>
+    <color name="genieColorPrimaryDark">#3700B3</color>
+    <color name="genieColorPurple">#9C27B0</color>
+    <color name="genieColorRed">#F44336</color>
+    <color name="genieColorTeal">#009688</color>
+    <color name="genieColorWhite">#FFFFFF</color>
+    <color name="genieColorYellow">#FFEB3B</color>
+    <color name="genieColorYellowLime">#CDDC39</color>
+    <dimen name="genie_dimen_0dp">0dp</dimen>
+    <dimen name="genie_dimen_100dp">100dp</dimen>
+    <dimen name="genie_dimen_102dp">102dp</dimen>
+    <dimen name="genie_dimen_104dp">104dp</dimen>
+    <dimen name="genie_dimen_106dp">106dp</dimen>
+    <dimen name="genie_dimen_108dp">108dp</dimen>
+    <dimen name="genie_dimen_10dp">10dp</dimen>
+    <dimen name="genie_dimen_110dp">110dp</dimen>
+    <dimen name="genie_dimen_112dp">112dp</dimen>
+    <dimen name="genie_dimen_114dp">114dp</dimen>
+    <dimen name="genie_dimen_116dp">116dp</dimen>
+    <dimen name="genie_dimen_118dp">118dp</dimen>
+    <dimen name="genie_dimen_120dp">120dp</dimen>
+    <dimen name="genie_dimen_122dp">122dp</dimen>
+    <dimen name="genie_dimen_124dp">124dp</dimen>
+    <dimen name="genie_dimen_126dp">126dp</dimen>
+    <dimen name="genie_dimen_128dp">128dp</dimen>
+    <dimen name="genie_dimen_12dp">12dp</dimen>
+    <dimen name="genie_dimen_130dp">130dp</dimen>
+    <dimen name="genie_dimen_132dp">132dp</dimen>
+    <dimen name="genie_dimen_134dp">134dp</dimen>
+    <dimen name="genie_dimen_136dp">136dp</dimen>
+    <dimen name="genie_dimen_138dp">138dp</dimen>
+    <dimen name="genie_dimen_140dp">140dp</dimen>
+    <dimen name="genie_dimen_142dp">142dp</dimen>
+    <dimen name="genie_dimen_144dp">144dp</dimen>
+    <dimen name="genie_dimen_146dp">146dp</dimen>
+    <dimen name="genie_dimen_148dp">148dp</dimen>
+    <dimen name="genie_dimen_14dp">14dp</dimen>
+    <dimen name="genie_dimen_150dp">150dp</dimen>
+    <dimen name="genie_dimen_152dp">152dp</dimen>
+    <dimen name="genie_dimen_154dp">154dp</dimen>
+    <dimen name="genie_dimen_156dp">156dp</dimen>
+    <dimen name="genie_dimen_158dp">158dp</dimen>
+    <dimen name="genie_dimen_160dp">160dp</dimen>
+    <dimen name="genie_dimen_162dp">162dp</dimen>
+    <dimen name="genie_dimen_164dp">164dp</dimen>
+    <dimen name="genie_dimen_166dp">166dp</dimen>
+    <dimen name="genie_dimen_168dp">168dp</dimen>
+    <dimen name="genie_dimen_16dp">16dp</dimen>
+    <dimen name="genie_dimen_170dp">170dp</dimen>
+    <dimen name="genie_dimen_172dp">172dp</dimen>
+    <dimen name="genie_dimen_174dp">174dp</dimen>
+    <dimen name="genie_dimen_176dp">176dp</dimen>
+    <dimen name="genie_dimen_178dp">178dp</dimen>
+    <dimen name="genie_dimen_180dp">180dp</dimen>
+    <dimen name="genie_dimen_182dp">182dp</dimen>
+    <dimen name="genie_dimen_184dp">184dp</dimen>
+    <dimen name="genie_dimen_186dp">186dp</dimen>
+    <dimen name="genie_dimen_188dp">188dp</dimen>
+    <dimen name="genie_dimen_18dp">18dp</dimen>
+    <dimen name="genie_dimen_190dp">190dp</dimen>
+    <dimen name="genie_dimen_192dp">192dp</dimen>
+    <dimen name="genie_dimen_194dp">194dp</dimen>
+    <dimen name="genie_dimen_196dp">196dp</dimen>
+    <dimen name="genie_dimen_198dp">198dp</dimen>
+    <dimen name="genie_dimen_1dp">1dp</dimen>
+    <dimen name="genie_dimen_200dp">200dp</dimen>
+    <dimen name="genie_dimen_20dp">20dp</dimen>
+    <dimen name="genie_dimen_22dp">22dp</dimen>
+    <dimen name="genie_dimen_24dp">24dp</dimen>
+    <dimen name="genie_dimen_26dp">26dp</dimen>
+    <dimen name="genie_dimen_28dp">28dp</dimen>
+    <dimen name="genie_dimen_2dp">2dp</dimen>
+    <dimen name="genie_dimen_30dp">30dp</dimen>
+    <dimen name="genie_dimen_32dp">32dp</dimen>
+    <dimen name="genie_dimen_34dp">34dp</dimen>
+    <dimen name="genie_dimen_36dp">36dp</dimen>
+    <dimen name="genie_dimen_38dp">38dp</dimen>
+    <dimen name="genie_dimen_40dp">40dp</dimen>
+    <dimen name="genie_dimen_42dp">42dp</dimen>
+    <dimen name="genie_dimen_44dp">44dp</dimen>
+    <dimen name="genie_dimen_46dp">46dp</dimen>
+    <dimen name="genie_dimen_48dp">48dp</dimen>
+    <dimen name="genie_dimen_4dp">4dp</dimen>
+    <dimen name="genie_dimen_50dp">50dp</dimen>
+    <dimen name="genie_dimen_52dp">52dp</dimen>
+    <dimen name="genie_dimen_54dp">54dp</dimen>
+    <dimen name="genie_dimen_56dp">56dp</dimen>
+    <dimen name="genie_dimen_58dp">58dp</dimen>
+    <dimen name="genie_dimen_60dp">60dp</dimen>
+    <dimen name="genie_dimen_62dp">62dp</dimen>
+    <dimen name="genie_dimen_64dp">64dp</dimen>
+    <dimen name="genie_dimen_66dp">66dp</dimen>
+    <dimen name="genie_dimen_68dp">68dp</dimen>
+    <dimen name="genie_dimen_6dp">6dp</dimen>
+    <dimen name="genie_dimen_70dp">70dp</dimen>
+    <dimen name="genie_dimen_72dp">72dp</dimen>
+    <dimen name="genie_dimen_74dp">74dp</dimen>
+    <dimen name="genie_dimen_76dp">76dp</dimen>
+    <dimen name="genie_dimen_78dp">78dp</dimen>
+    <dimen name="genie_dimen_80dp">80dp</dimen>
+    <dimen name="genie_dimen_82dp">82dp</dimen>
+    <dimen name="genie_dimen_84dp">84dp</dimen>
+    <dimen name="genie_dimen_86dp">86dp</dimen>
+    <dimen name="genie_dimen_88dp">88dp</dimen>
+    <dimen name="genie_dimen_8dp">8dp</dimen>
+    <dimen name="genie_dimen_90dp">90dp</dimen>
+    <dimen name="genie_dimen_92dp">92dp</dimen>
+    <dimen name="genie_dimen_94dp">94dp</dimen>
+    <dimen name="genie_dimen_96dp">96dp</dimen>
+    <dimen name="genie_dimen_98dp">98dp</dimen>
+    <dimen name="genie_dimen_font_100sp">100sp</dimen>
+    <dimen name="genie_dimen_font_102sp">102sp</dimen>
+    <dimen name="genie_dimen_font_104sp">104sp</dimen>
+    <dimen name="genie_dimen_font_106sp">106sp</dimen>
+    <dimen name="genie_dimen_font_108sp">108sp</dimen>
+    <dimen name="genie_dimen_font_10sp">10sp</dimen>
+    <dimen name="genie_dimen_font_110sp">110sp</dimen>
+    <dimen name="genie_dimen_font_11sp">11sp</dimen>
+    <dimen name="genie_dimen_font_12sp">12sp</dimen>
+    <dimen name="genie_dimen_font_13sp">13sp</dimen>
+    <dimen name="genie_dimen_font_14sp">14sp</dimen>
+    <dimen name="genie_dimen_font_15sp">15sp</dimen>
+    <dimen name="genie_dimen_font_16sp">16sp</dimen>
+    <dimen name="genie_dimen_font_18sp">18sp</dimen>
+    <dimen name="genie_dimen_font_1sp">1sp</dimen>
+    <dimen name="genie_dimen_font_20sp">20sp</dimen>
+    <dimen name="genie_dimen_font_22sp">22sp</dimen>
+    <dimen name="genie_dimen_font_24sp">24sp</dimen>
+    <dimen name="genie_dimen_font_26sp">26sp</dimen>
+    <dimen name="genie_dimen_font_28sp">28sp</dimen>
+    <dimen name="genie_dimen_font_2sp">2sp</dimen>
+    <dimen name="genie_dimen_font_30sp">30sp</dimen>
+    <dimen name="genie_dimen_font_32sp">32sp</dimen>
+    <dimen name="genie_dimen_font_34sp">34sp</dimen>
+    <dimen name="genie_dimen_font_36sp">36sp</dimen>
+    <dimen name="genie_dimen_font_38sp">38sp</dimen>
+    <dimen name="genie_dimen_font_40sp">40sp</dimen>
+    <dimen name="genie_dimen_font_42sp">42sp</dimen>
+    <dimen name="genie_dimen_font_44sp">44sp</dimen>
+    <dimen name="genie_dimen_font_46sp">46sp</dimen>
+    <dimen name="genie_dimen_font_48sp">48sp</dimen>
+    <dimen name="genie_dimen_font_4sp">4sp</dimen>
+    <dimen name="genie_dimen_font_50sp">50sp</dimen>
+    <dimen name="genie_dimen_font_52sp">52sp</dimen>
+    <dimen name="genie_dimen_font_54sp">54sp</dimen>
+    <dimen name="genie_dimen_font_56sp">56sp</dimen>
+    <dimen name="genie_dimen_font_58sp">58sp</dimen>
+    <dimen name="genie_dimen_font_60sp">60sp</dimen>
+    <dimen name="genie_dimen_font_62sp">62sp</dimen>
+    <dimen name="genie_dimen_font_64sp">64sp</dimen>
+    <dimen name="genie_dimen_font_66sp">66sp</dimen>
+    <dimen name="genie_dimen_font_68sp">68sp</dimen>
+    <dimen name="genie_dimen_font_6sp">6sp</dimen>
+    <dimen name="genie_dimen_font_70sp">70sp</dimen>
+    <dimen name="genie_dimen_font_72sp">72sp</dimen>
+    <dimen name="genie_dimen_font_74sp">74sp</dimen>
+    <dimen name="genie_dimen_font_76sp">76sp</dimen>
+    <dimen name="genie_dimen_font_78sp">78sp</dimen>
+    <dimen name="genie_dimen_font_80sp">80sp</dimen>
+    <dimen name="genie_dimen_font_82sp">82sp</dimen>
+    <dimen name="genie_dimen_font_84sp">84sp</dimen>
+    <dimen name="genie_dimen_font_86sp">86sp</dimen>
+    <dimen name="genie_dimen_font_88sp">88sp</dimen>
+    <dimen name="genie_dimen_font_8sp">8sp</dimen>
+    <dimen name="genie_dimen_font_90sp">90sp</dimen>
+    <dimen name="genie_dimen_font_92sp">92sp</dimen>
+    <dimen name="genie_dimen_font_94sp">94sp</dimen>
+    <dimen name="genie_dimen_font_96sp">96sp</dimen>
+    <dimen name="genie_dimen_font_98sp">98sp</dimen>
+    <dimen name="genie_dimen_font_9sp">9sp</dimen>
+    <string name="genie_dummy_content_description">This Is Image</string>
+    <string name="genie_dummy_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="genie_dummy_subtitle">Lorem Ipsum is simply dummy text</string>
+    <string name="genie_dummy_title">Lorem Ipsum</string>
+    <string name="Genie_is_empty_data">is Empty Data</string>
+    <string name="Genie_no_data_found">No data found</string>
+    <string name="Genie_please_insert_data">Please insert data here !!!</string>
+
+
+    <dimen name="popup_max_move_distance">60dp</dimen>
+    <dimen name="top_small_number_margin_width">12dp</dimen>
+    <dimen name="top_small_number_margin_height">18dp</dimen>
+    <dimen name="toolbar_height">46dp</dimen>
+    <dimen name="toolbar_icon_height">32dp</dimen>
+    <dimen name="clip_drag_icon_height">40dp</dimen>
+    <dimen name="key_height">60dp</dimen>
+    <dimen name="vertical_correction">-10dp</dimen>
+    <dimen name="clip_pin_size">28dp</dimen>
+    <dimen name="emoji_item_size">46dp</dimen>
+    <dimen name="emoji_palette_btn_size">42dp</dimen>
+    <dimen name="dragselect_hotspot_height">56dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="bigger_margin">20dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
+    <dimen name="section_margin">32dp</dimen>
+
+    <dimen name="keyboard_text_size">22sp</dimen>
+    <dimen name="preview_text_size">26sp</dimen>
+    <dimen name="label_text_size">16sp</dimen>      <!-- text size used at keys with longer labels, like "123" -->
+    <dimen name="emoji_text_size">28sp</dimen>
+
+    <style name="GenieLoadingIndicatorView">
+        <item name="minWidth">48dp</item>
+        <item name="maxWidth">48dp</item>
+        <item name="minHeight">48dp</item>
+        <item name="maxHeight">48dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="GenieLoadingIndicatorView.Large">
+        <item name="minWidth">76dp</item>
+        <item name="maxWidth">76dp</item>
+        <item name="minHeight">76dp</item>
+        <item name="maxHeight">76dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="GenieLoadingIndicatorView.Small">
+        <item name="minWidth">24dp</item>
+        <item name="maxWidth">24dp</item>
+        <item name="minHeight">24dp</item>
+        <item name="maxHeight">24dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="GenieTvListDescription" parent="GenieBaseAreaWrapContent">
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/genieColorBlack</item>
+        <item name="android:textSize">@dimen/genie_dimen_font_11sp</item>
+    </style>
+    <style name="GenieTvListSubTitle" parent="GenieBaseAreaWrapContent">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/genie_dimen_font_12sp</item>
+    </style>
+    <style name="GenieArea48dp">
+        <item name="android:layout_width">@dimen/genie_dimen_48dp</item>
+        <item name="android:layout_height">@dimen/genie_dimen_48dp</item>
+    </style>
+    <style name="GenieArea64dp">
+        <item name="android:layout_width">@dimen/genie_dimen_64dp</item>
+        <item name="android:layout_height">@dimen/genie_dimen_64dp</item>
+    </style>
+    <style name="GenieBaseAreaHeightMatchParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="GenieBaseAreaMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="GenieBaseAreaWidthMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GenieBaseAreaWrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GenieTvListTitle" parent="GenieBaseAreaWrapContent">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/genieColorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/genie_dimen_font_16sp</item>
+    </style>
+    <declare-styleable name="GenieLoadingIndicatorView">
+        <attr format="dimension" name="minWidth"/>
+        <attr format="dimension" name="maxWidth"/>
+        <attr format="dimension" name="minHeight"/>
+        <attr format="dimension" name="maxHeight"/>
+        <attr format="string" name="indicatorName"/>
+        <attr format="color" name="indicatorColor"/>
+    </declare-styleable>
+</resources>

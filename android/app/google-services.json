@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "119244087032",
+    "project_id": "genie-8f289",
+    "storage_bucket": "genie-8f289.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119244087032:android:d18fa8f8b7967c8ec1250d",
+        "android_client_info": {
+          "package_name": "ai.genie.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119244087032-82a6ds7ijluf8bqpasmnr413nb973vfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.genie.app",
+            "certificate_hash": "6dcc36d0bd26ea154c5cc7cf5a6398b5d8b2a0cc"
+          }
+        },
+        {
+          "client_id": "119244087032-o3plr4hpgt45ea1nesp29ar4tfc578ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.genie.app",
+            "certificate_hash": "efc0a275d2f143a222fc6e2767c5d1321c88a3fc"
+          }
+        },
+        {
+          "client_id": "119244087032-49es7g1hnmbjjlcb8uelp2ll2jhtutsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc4AIMjTZyjIo9-2ZduQf7xRIqtmaGAfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119244087032-49es7g1hnmbjjlcb8uelp2ll2jhtutsf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119244087032-dnp5g8a25ojio1c36jlvatj8ps1dc1in.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.genie.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119244087032:android:4343781c7fe4c708c1250d",
+        "android_client_info": {
+          "package_name": "ai.genie.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119244087032-ppbgil3fkv31oodn8chm8u67oaf56684.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.genie.app",
+            "certificate_hash": "efc0a275d2f143a222fc6e2767c5d1321c88a3fc"
+          }
+        },
+        {
+          "client_id": "119244087032-t9d6sn04fg3dmpc8kbukuo86rbf855cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.genie.app",
+            "certificate_hash": "6dcc36d0bd26ea154c5cc7cf5a6398b5d8b2a0cc"
+          }
+        },
+        {
+          "client_id": "119244087032-49es7g1hnmbjjlcb8uelp2ll2jhtutsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc4AIMjTZyjIo9-2ZduQf7xRIqtmaGAfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119244087032-49es7g1hnmbjjlcb8uelp2ll2jhtutsf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119244087032-dnp5g8a25ojio1c36jlvatj8ps1dc1in.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.genie.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

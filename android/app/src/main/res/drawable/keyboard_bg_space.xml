@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:id="@+id/space_pressed"
+                android:bottom="6dp"
+                android:left="6dp"
+                android:right="6dp"
+                android:state_pressed="true"
+                android:top="6dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/md_grey_600" />
+                    <corners android:radius="8dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:id="@+id/space_normal"
+                android:bottom="6dp"
+                android:left="6dp"
+                android:right="6dp"
+                android:state_pressed="true"
+                android:top="6dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/keyboard_bg_normal_color" />
+                    <corners android:radius="8dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
